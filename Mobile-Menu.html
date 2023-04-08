@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Menu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body,
+            html{
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container{
+                background-color: rgb(165, 165, 165);
+                height: 100px;
+                width: 450px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 20px;
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;               
+            }
+            .box:hover{
+                background-color: purple;               
+                height: 85px;
+                width: 85px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <i class="fa-solid fa-house"></i>Home
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-bell"></i>Notification
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-bookmark"></i>Bookmark
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-user"></i>Profile
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
